@@ -104,8 +104,8 @@ For CUDA build-time tuning options and detailed memory behavior, see [BUILDING.m
 
 ## Puzzle data
 
-The bundled JSON records puzzle number, bit length, inclusive scalar range, address, and a compressed public key when available. Its metadata lists the data sources. Since the solver searches by public key, puzzles without a known `pubkey` are not currently supported.
+The bundled JSON records puzzle number, bit length, inclusive scalar range, address, and a compressed public key when available. Its metadata lists the sources, including [BTC Puzzle](https://btcpuzzle.info/puzzle), [Bitcoin Puzzles](https://bitcoinpuzzles.io/en/puzzles/1000btc), [bitcoin-puzzle-systematic-analysis](https://github.com/mlartab/bitcoin-puzzle-systematic-analysis), [Bitcoin-Puzzle-Info](https://github.com/roadhero/Bitcoin-Puzzle-Info), and [BTCPuzzleSearch](https://btcpuzzlesearch.com/). Since the solver searches by public key, puzzles without a known `pubkey` are not currently supported.
 
 ## License
 
-This free edition is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
+The program source code in this free edition is licensed under the MIT License. See [LICENSE](LICENSE) for the full text. The bundled puzzle JSON is attributed to the third-party sources listed above; this MIT license does not change any separate terms that may apply to those sources or their data.
