@@ -59,12 +59,12 @@ btc_puzzle_solver <puzzle> <num_minis|max> [step] [options]
 | --- | --- |
 | `<puzzle>` | Puzzle number from the bundled JSON data. |
 | `<num_minis>` | Number of evenly spaced mini points; must be at least 2. |
-| `max` | **Paid:** CUDA only; automatically calculate mini capacity from free VRAM. In the free build this displays the BTCPay purchase information and stops. |
+| `max` | **Paid:** CUDA only; automatically calculate mini capacity from free VRAM. In the free build this displays the manual payment instructions and stops. |
 | `[step]` | Giant-step size, in the range's scalar units; defaults to `1`. |
 | `--gpu` | Use CUDA instead of CPU search. |
 | `--gpu-device N` | Use only CUDA device index `N`; GPU 0 is selected by default. CUDA uses one GPU in this version. |
 | `--workers N` | CPU worker count. The value is clamped to the available CPU parallelism. CUDA uses one mini producer. |
-| `--sector K/N` | **Paid:** search sector `K` from `N` equal parts; sectors are 1-based. The free build displays the BTCPay purchase information and stops. |
+| `--sector K/N` | **Paid:** search sector `K` from `N` equal parts; sectors are 1-based. The free build displays the manual payment instructions and stops. |
 | `--sector A-B/N` | **Paid:** search sectors `A` through `B` in order, stopping if a key is found. |
 | `--sector A-B --sector-size-bits B` | **Paid:** search fixed-size chunks of `2^B` keys, numbered from the start of the puzzle range. The last chunk may be shorter. |
 | `--fp N`, `--fingerprint-bits N` | CUDA fingerprint size from 8 to 192 bits in increments of 8; default is 192. |
@@ -106,6 +106,6 @@ For CUDA build-time tuning options and detailed memory behavior, see [BUILDING.m
 
 The bundled JSON records puzzle number, bit length, inclusive scalar range, address, and a compressed public key when available. Its metadata lists the data sources. Since the solver searches by public key, puzzles without a known `pubkey` are not currently supported.
 
-## License and contributions
+## License
 
-License and contribution terms have not yet been added to this export. Add the project license and contribution policy before publishing a public GitHub repository.
+This free edition is licensed under the MIT License. See [LICENSE](LICENSE) for the full text.
