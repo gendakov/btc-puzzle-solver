@@ -537,7 +537,7 @@ fn clear_progress_files() -> Result<usize, String> {
 
 fn solve(
     puzzle_number: u32,
-    mut num_minis: usize,
+    num_minis: usize,
     step: U256,
     json_path: &str,
     workers: usize,
@@ -560,8 +560,8 @@ fn solve(
         .pubkey
         .ok_or_else(|| format!("Puzzle {puzzle_number} has no public key"))?;
     let target = parse_pubkey(&target_hex)?;
-    let mut start = parse_u256(&puzzle.range.start_hex)?;
-    let mut end = parse_u256(&puzzle.range.end_hex)?;
+    let start = parse_u256(&puzzle.range.start_hex)?;
+    let end = parse_u256(&puzzle.range.end_hex)?;
     let search_key_count = end - start + U256::one();
     let delta = (end - start) / U256::from(num_minis - 1);
     println!("{}", "=".repeat(72));
@@ -1065,7 +1065,6 @@ mod tests {
         assert!(load_puzzle("btc_puzzles_160_with_pubkey.json", 999).is_err());
     }
 
-    #[test]
     #[test]
     fn private_key_writer_emits_fixed_width_hex() {
         let path = std::env::temp_dir().join(format!("btc-solver-test-{}.key", std::process::id()));
