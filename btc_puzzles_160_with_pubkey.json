@@ -1,0 +1,1934 @@
+{
+  "source": "https://btcpuzzle.info/puzzle",
+  "description": "Bitcoin Puzzle list, puzzle number, target address and private-key search range.",
+  "range_convention": "start = 2^(n-1), end = 2^n - 1 (inclusive)",
+  "puzzles": [
+    {
+      "number": 1,
+      "address": "1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH",
+      "bits": 1,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+        "start_decimal": "1",
+        "end_decimal": "1"
+      },
+      "pubkey": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798"
+    },
+    {
+      "number": 2,
+      "address": "1CUNEBjYrCn2y1SdiUMohaKUi4wpP326Lb",
+      "bits": 2,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000002",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000000003",
+        "start_decimal": "2",
+        "end_decimal": "3"
+      },
+      "pubkey": "02f9308a019258c31049344f85f89d5229b531c845836f99b08601f113bce036f9"
+    },
+    {
+      "number": 3,
+      "address": "19ZewH8Kk1PDbSNdJ97FP4EiCjTRaZMZQA",
+      "bits": 3,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000004",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000000007",
+        "start_decimal": "4",
+        "end_decimal": "7"
+      },
+      "pubkey": "025cbdf0646e5db4eaa398f365f2ea7a0e3d419b7e0330e39ce92bddedcac4f9bc"
+    },
+    {
+      "number": 4,
+      "address": "1EhqbyUMvvs7BfL8goY6qcPbD6YKfPqb7e",
+      "bits": 4,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000008",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000000000f",
+        "start_decimal": "8",
+        "end_decimal": "15"
+      },
+      "pubkey": "022f01e5e15cca351daff3843fb70f3c2f0a1bdd05e5af888a67784ef3e10a2a01"
+    },
+    {
+      "number": 5,
+      "address": "1E6NuFjCi27W5zoXg8TRdcSRq84zJeBW3k",
+      "bits": 5,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000010",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000000001f",
+        "start_decimal": "16",
+        "end_decimal": "31"
+      },
+      "pubkey": "02352bbf4a4cdd12564f93fa332ce333301d9ad40271f8107181340aef25be59d5"
+    },
+    {
+      "number": 6,
+      "address": "1PitScNLyp2HCygzadCh7FveTnfmpPbfp8",
+      "bits": 6,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000020",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000000003f",
+        "start_decimal": "32",
+        "end_decimal": "63"
+      },
+      "pubkey": "03f2dac991cc4ce4b9ea44887e5c7c0bce58c80074ab9d4dbaeb28531b7739f530"
+    },
+    {
+      "number": 7,
+      "address": "1McVt1vMtCC7yn5b9wgX1833yCcLXzueeC",
+      "bits": 7,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000040",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000000007f",
+        "start_decimal": "64",
+        "end_decimal": "127"
+      },
+      "pubkey": "0296516a8f65774275278d0d7420a88df0ac44bd64c7bae07c3fe397c5b3300b23"
+    },
+    {
+      "number": 8,
+      "address": "1M92tSqNmQLYw33fuBvjmeadirh1ysMBxK",
+      "bits": 8,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000080",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000000000ff",
+        "start_decimal": "128",
+        "end_decimal": "255"
+      },
+      "pubkey": "0308bc89c2f919ed158885c35600844d49890905c79b357322609c45706ce6b514"
+    },
+    {
+      "number": 9,
+      "address": "1CQFwcjw1dwhtkVWBttNLDtqL7ivBonGPV",
+      "bits": 9,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000100",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000000001ff",
+        "start_decimal": "256",
+        "end_decimal": "511"
+      },
+      "pubkey": "0243601d61c836387485e9514ab5c8924dd2cfd466af34ac95002727e1659d60f7"
+    },
+    {
+      "number": 10,
+      "address": "1LeBZP5QCwwgXRtmVUvTVrraqPUokyLHqe",
+      "bits": 10,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000200",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000000003ff",
+        "start_decimal": "512",
+        "end_decimal": "1023"
+      },
+      "pubkey": "03a7a4c30291ac1db24b4ab00c442aa832f7794b5a0959bec6e8d7fee802289dcd"
+    },
+    {
+      "number": 11,
+      "address": "1PgQVLmst3Z314JrQn5TNiys8Hc38TcXJu",
+      "bits": 11,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000400",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000000007ff",
+        "start_decimal": "1024",
+        "end_decimal": "2047"
+      },
+      "pubkey": "038b05b0603abd75b0c57489e451f811e1afe54a8715045cdf4888333f3ebc6e8b"
+    },
+    {
+      "number": 12,
+      "address": "1DBaumZxUkM4qMQRt2LVWyFJq5kDtSZQot",
+      "bits": 12,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000000800",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000000fff",
+        "start_decimal": "2048",
+        "end_decimal": "4095"
+      },
+      "pubkey": "038b00fcbfc1a203f44bf123fc7f4c91c10a85c8eae9187f9d22242b4600ce781c"
+    },
+    {
+      "number": 13,
+      "address": "1Pie8JkxBT6MGPz9Nvi3fsPkr2D8q3GBc1",
+      "bits": 13,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000001000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000001fff",
+        "start_decimal": "4096",
+        "end_decimal": "8191"
+      },
+      "pubkey": "03aadaaab1db8d5d450b511789c37e7cfeb0eb8b3e61a57a34166c5edc9a4b869d"
+    },
+    {
+      "number": 14,
+      "address": "1ErZWg5cFCe4Vw5BzgfzB74VNLaXEiEkhk",
+      "bits": 14,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000002000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000003fff",
+        "start_decimal": "8192",
+        "end_decimal": "16383"
+      },
+      "pubkey": "03b4f1de58b8b41afe9fd4e5ffbdafaeab86c5db4769c15d6e6011ae7351e54759"
+    },
+    {
+      "number": 15,
+      "address": "1QCbW9HWnwQWiQqVo5exhAnmfqKRrCRsvW",
+      "bits": 15,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000004000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000007fff",
+        "start_decimal": "16384",
+        "end_decimal": "32767"
+      },
+      "pubkey": "02fea58ffcf49566f6e9e9350cf5bca2861312f422966e8db16094beb14dc3df2c"
+    },
+    {
+      "number": 16,
+      "address": "1BDyrQ6WoF8VN3g9SAS1iKZcPzFfnDVieY",
+      "bits": 16,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000008000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000000ffff",
+        "start_decimal": "32768",
+        "end_decimal": "65535"
+      },
+      "pubkey": "029d8c5d35231d75eb87fd2c5f05f65281ed9573dc41853288c62ee94eb2590b7a"
+    },
+    {
+      "number": 17,
+      "address": "1HduPEXZRdG26SUT5Yk83mLkPyjnZuJ7Bm",
+      "bits": 17,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000010000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000001ffff",
+        "start_decimal": "65536",
+        "end_decimal": "131071"
+      },
+      "pubkey": "033f688bae8321b8e02b7e6c0a55c2515fb25ab97d85fda842449f7bfa04e128c3"
+    },
+    {
+      "number": 18,
+      "address": "1GnNTmTVLZiqQfLbAdp9DVdicEnB5GoERE",
+      "bits": 18,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000020000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000003ffff",
+        "start_decimal": "131072",
+        "end_decimal": "262143"
+      },
+      "pubkey": "020ce4a3291b19d2e1a7bf73ee87d30a6bdbc72b20771e7dfff40d0db755cd4af1"
+    },
+    {
+      "number": 19,
+      "address": "1NWmZRpHH4XSPwsW6dsS3nrNWfL1yrJj4w",
+      "bits": 19,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000040000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000007ffff",
+        "start_decimal": "262144",
+        "end_decimal": "524287"
+      },
+      "pubkey": "0385663c8b2f90659e1ccab201694f4f8ec24b3749cfe5030c7c3646a709408e19"
+    },
+    {
+      "number": 20,
+      "address": "1HsMJxNiV7TLxmoF6uJNkydxPFDog4NQum",
+      "bits": 20,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000080000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000000fffff",
+        "start_decimal": "524288",
+        "end_decimal": "1048575"
+      },
+      "pubkey": "033c4a45cbd643ff97d77f41ea37e843648d50fd894b864b0d52febc62f6454f7c"
+    },
+    {
+      "number": 21,
+      "address": "14oFNXucftsHiUMY8uctg6N487riuyXs4h",
+      "bits": 21,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000100000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000001fffff",
+        "start_decimal": "1048576",
+        "end_decimal": "2097151"
+      },
+      "pubkey": "031a746c78f72754e0be046186df8a20cdce5c79b2eda76013c647af08d306e49e"
+    },
+    {
+      "number": 22,
+      "address": "1CfZWK1QTQE3eS9qn61dQjV89KDjZzfNcv",
+      "bits": 22,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000200000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000003fffff",
+        "start_decimal": "2097152",
+        "end_decimal": "4194303"
+      },
+      "pubkey": "023ed96b524db5ff4fe007ce730366052b7c511dc566227d929070b9ce917abb43"
+    },
+    {
+      "number": 23,
+      "address": "1L2GM8eE7mJWLdo3HZS6su1832NX2txaac",
+      "bits": 23,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000400000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000007fffff",
+        "start_decimal": "4194304",
+        "end_decimal": "8388607"
+      },
+      "pubkey": "03f82710361b8b81bdedb16994f30c80db522450a93e8e87eeb07f7903cf28d04b"
+    },
+    {
+      "number": 24,
+      "address": "1rSnXMr63jdCuegJFuidJqWxUPV7AtUf7",
+      "bits": 24,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000000800000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000000ffffff",
+        "start_decimal": "8388608",
+        "end_decimal": "16777215"
+      },
+      "pubkey": "036ea839d22847ee1dce3bfc5b11f6cf785b0682db58c35b63d1342eb221c3490c"
+    },
+    {
+      "number": 25,
+      "address": "15JhYXn6Mx3oF4Y7PcTAv2wVVAuCFFQNiP",
+      "bits": 25,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000001000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000001ffffff",
+        "start_decimal": "16777216",
+        "end_decimal": "33554431"
+      },
+      "pubkey": "03057fbea3a2623382628dde556b2a0698e32428d3cd225f3bd034dca82dd7455a"
+    },
+    {
+      "number": 26,
+      "address": "1JVnST957hGztonaWK6FougdtjxzHzRMMg",
+      "bits": 26,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000002000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000003ffffff",
+        "start_decimal": "33554432",
+        "end_decimal": "67108863"
+      },
+      "pubkey": "024e4f50a2a3eccdb368988ae37cd4b611697b26b29696e42e06d71368b4f3840f"
+    },
+    {
+      "number": 27,
+      "address": "128z5d7nN7PkCuX5qoA4Ys6pmxUYnEy86k",
+      "bits": 27,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000004000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000007ffffff",
+        "start_decimal": "67108864",
+        "end_decimal": "134217727"
+      },
+      "pubkey": "031a864bae3922f351f1b57cfdd827c25b7e093cb9c88a72c1cd893d9f90f44ece"
+    },
+    {
+      "number": 28,
+      "address": "12jbtzBb54r97TCwW3G1gCFoumpckRAPdY",
+      "bits": 28,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000008000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000000fffffff",
+        "start_decimal": "134217728",
+        "end_decimal": "268435455"
+      },
+      "pubkey": "03e9e661838a96a65331637e2a3e948dc0756e5009e7cb5c36664d9b72dd18c0a7"
+    },
+    {
+      "number": 29,
+      "address": "19EEC52krRUK1RkUAEZmQdjTyHT7Gp1TYT",
+      "bits": 29,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000010000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000001fffffff",
+        "start_decimal": "268435456",
+        "end_decimal": "536870911"
+      },
+      "pubkey": "026caad634382d34691e3bef43ed4a124d8909a8a3362f91f1d20abaaf7e917b36"
+    },
+    {
+      "number": 30,
+      "address": "1LHtnpd8nU5VHEMkG2TMYYNUjjLc992bps",
+      "bits": 30,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000020000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000003fffffff",
+        "start_decimal": "536870912",
+        "end_decimal": "1073741823"
+      },
+      "pubkey": "030d282cf2ff536d2c42f105d0b8588821a915dc3f9a05bd98bb23af67a2e92a5b"
+    },
+    {
+      "number": 31,
+      "address": "1LhE6sCTuGae42Axu1L1ZB7L96yi9irEBE",
+      "bits": 31,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000040000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000007fffffff",
+        "start_decimal": "1073741824",
+        "end_decimal": "2147483647"
+      },
+      "pubkey": "0387dc70db1806cd9a9a76637412ec11dd998be666584849b3185f7f9313c8fd28"
+    },
+    {
+      "number": 32,
+      "address": "1FRoHA9xewq7DjrZ1psWJVeTer8gHRqEvR",
+      "bits": 32,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000080000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000000ffffffff",
+        "start_decimal": "2147483648",
+        "end_decimal": "4294967295"
+      },
+      "pubkey": "0209c58240e50e3ba3f833c82655e8725c037a2294e14cf5d73a5df8d56159de69"
+    },
+    {
+      "number": 33,
+      "address": "187swFMjz1G54ycVU56B7jZFHFTNVQFDiu",
+      "bits": 33,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000100000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000001ffffffff",
+        "start_decimal": "4294967296",
+        "end_decimal": "8589934591"
+      },
+      "pubkey": "03a355aa5e2e09dd44bb46a4722e9336e9e3ee4ee4e7b7a0cf5785b283bf2ab579"
+    },
+    {
+      "number": 34,
+      "address": "1PWABE7oUahG2AFFQhhvViQovnCr4rEv7Q",
+      "bits": 34,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000200000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000003ffffffff",
+        "start_decimal": "8589934592",
+        "end_decimal": "17179869183"
+      },
+      "pubkey": "033cdd9d6d97cbfe7c26f902faf6a435780fe652e159ec953650ec7b1004082790"
+    },
+    {
+      "number": 35,
+      "address": "1PWCx5fovoEaoBowAvF5k91m2Xat9bMgwb",
+      "bits": 35,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000400000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000007ffffffff",
+        "start_decimal": "17179869184",
+        "end_decimal": "34359738367"
+      },
+      "pubkey": "02f6a8148a62320e149cb15c544fe8a25ab483a0095d2280d03b8a00a7feada13d"
+    },
+    {
+      "number": 36,
+      "address": "1Be2UF9NLfyLFbtm3TCbmuocc9N1Kduci1",
+      "bits": 36,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000000800000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000000fffffffff",
+        "start_decimal": "34359738368",
+        "end_decimal": "68719476735"
+      },
+      "pubkey": "02b3e772216695845fa9dda419fb5daca28154d8aa59ea302f05e916635e47b9f6"
+    },
+    {
+      "number": 37,
+      "address": "14iXhn8bGajVWegZHJ18vJLHhntcpL4dex",
+      "bits": 37,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000001000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000001fffffffff",
+        "start_decimal": "68719476736",
+        "end_decimal": "137438953471"
+      },
+      "pubkey": "027d2c03c3ef0aec70f2c7e1e75454a5dfdd0e1adea670c1b3a4643c48ad0f1255"
+    },
+    {
+      "number": 38,
+      "address": "1HBtApAFA9B2YZw3G2YKSMCtb3dVnjuNe2",
+      "bits": 38,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000002000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000003fffffffff",
+        "start_decimal": "137438953472",
+        "end_decimal": "274877906943"
+      },
+      "pubkey": "03c060e1e3771cbeccb38e119c2414702f3f5181a89652538851d2e3886bdd70c6"
+    },
+    {
+      "number": 39,
+      "address": "122AJhKLEfkFBaGAd84pLp1kfE7xK3GdT8",
+      "bits": 39,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000004000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000007fffffffff",
+        "start_decimal": "274877906944",
+        "end_decimal": "549755813887"
+      },
+      "pubkey": "022d77cd1467019a6bf28f7375d0949ce30e6b5815c2758b98a74c2700bc006543"
+    },
+    {
+      "number": 40,
+      "address": "1EeAxcprB2PpCnr34VfZdFrkUWuxyiNEFv",
+      "bits": 40,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000008000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000000ffffffffff",
+        "start_decimal": "549755813888",
+        "end_decimal": "1099511627775"
+      },
+      "pubkey": "03a2efa402fd5268400c77c20e574ba86409ededee7c4020e4b9f0edbee53de0d4"
+    },
+    {
+      "number": 41,
+      "address": "1L5sU9qvJeuwQUdt4y1eiLmquFxKjtHr3E",
+      "bits": 41,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000010000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000001ffffffffff",
+        "start_decimal": "1099511627776",
+        "end_decimal": "2199023255551"
+      },
+      "pubkey": "03b357e68437da273dcf995a474a524439faad86fc9effc300183f714b0903468b"
+    },
+    {
+      "number": 42,
+      "address": "1E32GPWgDyeyQac4aJxm9HVoLrrEYPnM4N",
+      "bits": 42,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000020000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000003ffffffffff",
+        "start_decimal": "2199023255552",
+        "end_decimal": "4398046511103"
+      },
+      "pubkey": "03eec88385be9da803a0d6579798d977a5d0c7f80917dab49cb73c9e3927142cb6"
+    },
+    {
+      "number": 43,
+      "address": "1PiFuqGpG8yGM5v6rNHWS3TjsG6awgEGA1",
+      "bits": 43,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000040000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000007ffffffffff",
+        "start_decimal": "4398046511104",
+        "end_decimal": "8796093022207"
+      },
+      "pubkey": "02a631f9ba0f28511614904df80d7f97a4f43f02249c8909dac92276ccf0bcdaed"
+    },
+    {
+      "number": 44,
+      "address": "1CkR2uS7LmFwc3T2jV8C1BhWb5mQaoxedF",
+      "bits": 44,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000080000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000000fffffffffff",
+        "start_decimal": "8796093022208",
+        "end_decimal": "17592186044415"
+      },
+      "pubkey": "025e466e97ed0e7910d3d90ceb0332df48ddf67d456b9e7303b50a3d89de357336"
+    },
+    {
+      "number": 45,
+      "address": "1NtiLNGegHWE3Mp9g2JPkgx6wUg4TW7bbk",
+      "bits": 45,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000100000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000001fffffffffff",
+        "start_decimal": "17592186044416",
+        "end_decimal": "35184372088831"
+      },
+      "pubkey": "026ecabd2d22fdb737be21975ce9a694e108eb94f3649c586cc7461c8abf5da71a"
+    },
+    {
+      "number": 46,
+      "address": "1F3JRMWudBaj48EhwcHDdpeuy2jwACNxjP",
+      "bits": 46,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000200000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000003fffffffffff",
+        "start_decimal": "35184372088832",
+        "end_decimal": "70368744177663"
+      },
+      "pubkey": "03fd5487722d2576cb6d7081426b66a3e2986c1ce8358d479063fb5f2bb6dd5849"
+    },
+    {
+      "number": 47,
+      "address": "1Pd8VvT49sHKsmqrQiP61RsVwmXCZ6ay7Z",
+      "bits": 47,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000400000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000007fffffffffff",
+        "start_decimal": "70368744177664",
+        "end_decimal": "140737488355327"
+      },
+      "pubkey": "023a12bd3caf0b0f77bf4eea8e7a40dbe27932bf80b19ac72f5f5a64925a594196"
+    },
+    {
+      "number": 48,
+      "address": "1DFYhaB2J9q1LLZJWKTnscPWos9VBqDHzv",
+      "bits": 48,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000000800000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000000ffffffffffff",
+        "start_decimal": "140737488355328",
+        "end_decimal": "281474976710655"
+      },
+      "pubkey": "0291bee5cf4b14c291c650732faa166040e4c18a14731f9a930c1e87d3ec12debb"
+    },
+    {
+      "number": 49,
+      "address": "12CiUhYVTTH33w3SPUBqcpMoqnApAV4WCF",
+      "bits": 49,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000001000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000001ffffffffffff",
+        "start_decimal": "281474976710656",
+        "end_decimal": "562949953421311"
+      },
+      "pubkey": "02591d682c3da4a2a698633bf5751738b67c343285ebdc3492645cb44658911484"
+    },
+    {
+      "number": 50,
+      "address": "1MEzite4ReNuWaL5Ds17ePKt2dCxWEofwk",
+      "bits": 50,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000002000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000003ffffffffffff",
+        "start_decimal": "562949953421312",
+        "end_decimal": "1125899906842623"
+      },
+      "pubkey": "03f46f41027bbf44fafd6b059091b900dad41e6845b2241dc3254c7cdd3c5a16c6"
+    },
+    {
+      "number": 51,
+      "address": "1NpnQyZ7x24ud82b7WiRNvPm6N8bqGQnaS",
+      "bits": 51,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000004000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000007ffffffffffff",
+        "start_decimal": "1125899906842624",
+        "end_decimal": "2251799813685247"
+      },
+      "pubkey": "028c6c67bef9e9eebe6a513272e50c230f0f91ed560c37bc9b033241ff6c3be78f"
+    },
+    {
+      "number": 52,
+      "address": "15z9c9sVpu6fwNiK7dMAFgMYSK4GqsGZim",
+      "bits": 52,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000008000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000000fffffffffffff",
+        "start_decimal": "2251799813685248",
+        "end_decimal": "4503599627370495"
+      },
+      "pubkey": "0374c33bd548ef02667d61341892134fcf216640bc2201ae61928cd0874f6314a7"
+    },
+    {
+      "number": 53,
+      "address": "15K1YKJMiJ4fpesTVUcByoz334rHmknxmT",
+      "bits": 53,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000010000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000001fffffffffffff",
+        "start_decimal": "4503599627370496",
+        "end_decimal": "9007199254740991"
+      },
+      "pubkey": "020faaf5f3afe58300a335874c80681cf66933e2a7aeb28387c0d28bb048bc6349"
+    },
+    {
+      "number": 54,
+      "address": "1KYUv7nSvXx4642TKeuC2SNdTk326uUpFy",
+      "bits": 54,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000020000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000003fffffffffffff",
+        "start_decimal": "9007199254740992",
+        "end_decimal": "18014398509481983"
+      },
+      "pubkey": "034af4b81f8c450c2c870ce1df184aff1297e5fcd54944d98d81e1a545ffb22596"
+    },
+    {
+      "number": 55,
+      "address": "1LzhS3k3e9Ub8i2W1V8xQFdB8n2MYCHPCa",
+      "bits": 55,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000040000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000007fffffffffffff",
+        "start_decimal": "18014398509481984",
+        "end_decimal": "36028797018963967"
+      },
+      "pubkey": "0385a30d8413af4f8f9e6312400f2d194fe14f02e719b24c3f83bf1fd233a8f963"
+    },
+    {
+      "number": 56,
+      "address": "17aPYR1m6pVAacXg1PTDDU7XafvK1dxvhi",
+      "bits": 56,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000080000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000000ffffffffffffff",
+        "start_decimal": "36028797018963968",
+        "end_decimal": "72057594037927935"
+      },
+      "pubkey": "033f2db2074e3217b3e5ee305301eeebb1160c4fa1e993ee280112f6348637999a"
+    },
+    {
+      "number": 57,
+      "address": "15c9mPGLku1HuW9LRtBf4jcHVpBUt8txKz",
+      "bits": 57,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000100000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000001ffffffffffffff",
+        "start_decimal": "72057594037927936",
+        "end_decimal": "144115188075855871"
+      },
+      "pubkey": "02a521a07e98f78b03fc1e039bc3a51408cd73119b5eb116e583fe57dc8db07aea"
+    },
+    {
+      "number": 58,
+      "address": "1Dn8NF8qDyyfHMktmuoQLGyjWmZXgvosXf",
+      "bits": 58,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000200000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000003ffffffffffffff",
+        "start_decimal": "144115188075855872",
+        "end_decimal": "288230376151711743"
+      },
+      "pubkey": "0311569442e870326ceec0de24eb5478c19e146ecd9d15e4666440f2f638875f42"
+    },
+    {
+      "number": 59,
+      "address": "1HAX2n9Uruu9YDt4cqRgYcvtGvZj1rbUyt",
+      "bits": 59,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000400000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000007ffffffffffffff",
+        "start_decimal": "288230376151711744",
+        "end_decimal": "576460752303423487"
+      },
+      "pubkey": "0241267d2d7ee1a8e76f8d1546d0d30aefb2892d231cee0dde7776daf9f8021485"
+    },
+    {
+      "number": 60,
+      "address": "1Kn5h2qpgw9mWE5jKpk8PP4qvvJ1QVy8su",
+      "bits": 60,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000000800000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000000fffffffffffffff",
+        "start_decimal": "576460752303423488",
+        "end_decimal": "1152921504606846975"
+      },
+      "pubkey": "0348e843dc5b1bd246e6309b4924b81543d02b16c8083df973a89ce2c7eb89a10d"
+    },
+    {
+      "number": 61,
+      "address": "1AVJKwzs9AskraJLGHAZPiaZcrpDr1U6AB",
+      "bits": 61,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000001000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000001fffffffffffffff",
+        "start_decimal": "1152921504606846976",
+        "end_decimal": "2305843009213693951"
+      },
+      "pubkey": "0249a43860d115143c35c09454863d6f82a95e47c1162fb9b2ebe0186eb26f453f"
+    },
+    {
+      "number": 62,
+      "address": "1Me6EfpwZK5kQziBwBfvLiHjaPGxCKLoJi",
+      "bits": 62,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000002000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000003fffffffffffffff",
+        "start_decimal": "2305843009213693952",
+        "end_decimal": "4611686018427387903"
+      },
+      "pubkey": "03231a67e424caf7d01a00d5cd49b0464942255b8e48766f96602bdfa4ea14fea8"
+    },
+    {
+      "number": 63,
+      "address": "1NpYjtLira16LfGbGwZJ5JbDPh3ai9bjf4",
+      "bits": 63,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000004000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000007fffffffffffffff",
+        "start_decimal": "4611686018427387904",
+        "end_decimal": "9223372036854775807"
+      },
+      "pubkey": "0365ec2994b8cc0a20d40dd69edfe55ca32a54bcbbaa6b0ddcff36049301a54579"
+    },
+    {
+      "number": 64,
+      "address": "16jY7qLJnxb7CHZyqBP8qca9d51gAjyXQN",
+      "bits": 64,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000008000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000000ffffffffffffffff",
+        "start_decimal": "9223372036854775808",
+        "end_decimal": "18446744073709551615"
+      },
+      "pubkey": "03100611c54dfef604163b8358f7b7fac13ce478e02cb224ae16d45526b25d9d4d"
+    },
+    {
+      "number": 65,
+      "address": "18ZMbwUFLMHoZBbfpCjUJQTCMCbktshgpe",
+      "bits": 65,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000010000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000001ffffffffffffffff",
+        "start_decimal": "18446744073709551616",
+        "end_decimal": "36893488147419103231"
+      },
+      "pubkey": "0230210c23b1a047bc9bdbb13448e67deddc108946de6de639bcc75d47c0216b1b"
+    },
+    {
+      "number": 66,
+      "address": "13zb1hQbWVsc2S7ZTZnP2G4undNNpdh5so",
+      "bits": 66,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000020000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000003ffffffffffffffff",
+        "start_decimal": "36893488147419103232",
+        "end_decimal": "73786976294838206463"
+      },
+      "pubkey": "024ee2be2d4e9f92d2f5a4a03058617dc45befe22938feed5b7a6b7282dd74cbdd"
+    },
+    {
+      "number": 67,
+      "address": "1BY8GQbnueYofwSuFAT3USAhGjPrkxDdW9",
+      "bits": 67,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000040000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000007ffffffffffffffff",
+        "start_decimal": "73786976294838206464",
+        "end_decimal": "147573952589676412927"
+      },
+      "pubkey": "02f58fba4c3de8c62a555e58db249096257f556a424995297f0615d7e2e6dc5176"
+    },
+    {
+      "number": 68,
+      "address": "1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ",
+      "bits": 68,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000080000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000000fffffffffffffffff",
+        "start_decimal": "147573952589676412928",
+        "end_decimal": "295147905179352825855"
+      },
+      "pubkey": "03a59f19045c65562def249ecc0d3f1584cd1d152e3a9afa193d608a43f2f8489c"
+    },
+    {
+      "number": 69,
+      "address": "19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG",
+      "bits": 69,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000100000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000001fffffffffffffffff",
+        "start_decimal": "295147905179352825856",
+        "end_decimal": "590295810358705651711"
+      },
+      "pubkey": "02b925a4c42986327b26a954324aab6f86caf9c9195f6d451f2d87c029c0cd3e4d"
+    },
+    {
+      "number": 70,
+      "address": "19YZECXj3SxEZMoUeJ1yiPsw8xANe7M7QR",
+      "bits": 70,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000200000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000003fffffffffffffffff",
+        "start_decimal": "590295810358705651712",
+        "end_decimal": "1180591620717411303423"
+      },
+      "pubkey": "0290e6900a58d33393bc1097b5aed31f2e4e7cbd3e5466af958665bc0121248483"
+    },
+    {
+      "number": 71,
+      "address": "1PWo3JeB9jrGwfHDNpdGK54CRas7fsVzXU",
+      "bits": 71,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000400000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000007fffffffffffffffff",
+        "start_decimal": "1180591620717411303424",
+        "end_decimal": "2361183241434822606847"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 72,
+      "address": "1JTK7s9YVYywfm5XUH7RNhHJH1LshCaRFR",
+      "bits": 72,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000000800000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000000ffffffffffffffffff",
+        "start_decimal": "2361183241434822606848",
+        "end_decimal": "4722366482869645213695"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 73,
+      "address": "12VVRNPi4SJqUTsp6FmqDqY5sGosDtysn4",
+      "bits": 73,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000001000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000001ffffffffffffffffff",
+        "start_decimal": "4722366482869645213696",
+        "end_decimal": "9444732965739290427391"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 74,
+      "address": "1FWGcVDK3JGzCC3WtkYetULPszMaK2Jksv",
+      "bits": 74,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000002000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000003ffffffffffffffffff",
+        "start_decimal": "9444732965739290427392",
+        "end_decimal": "18889465931478580854783"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 75,
+      "address": "1J36UjUByGroXcCvmj13U6uwaVv9caEeAt",
+      "bits": 75,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000004000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000007ffffffffffffffffff",
+        "start_decimal": "18889465931478580854784",
+        "end_decimal": "37778931862957161709567"
+      },
+      "pubkey": "03726b574f193e374686d8e12bc6e4142adeb06770e0a2856f5e4ad89f66044755"
+    },
+    {
+      "number": 76,
+      "address": "1DJh2eHFYQfACPmrvpyWc8MSTYKh7w9eRF",
+      "bits": 76,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000008000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000000fffffffffffffffffff",
+        "start_decimal": "37778931862957161709568",
+        "end_decimal": "75557863725914323419135"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 77,
+      "address": "1Bxk4CQdqL9p22JEtDfdXMsng1XacifUtE",
+      "bits": 77,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000010000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000001fffffffffffffffffff",
+        "start_decimal": "75557863725914323419136",
+        "end_decimal": "151115727451828646838271"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 78,
+      "address": "15qF6X51huDjqTmF9BJgxXdt1xcj46Jmhb",
+      "bits": 78,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000020000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000003fffffffffffffffffff",
+        "start_decimal": "151115727451828646838272",
+        "end_decimal": "302231454903657293676543"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 79,
+      "address": "1ARk8HWJMn8js8tQmGUJeQHjSE7KRkn2t8",
+      "bits": 79,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000040000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000007fffffffffffffffffff",
+        "start_decimal": "302231454903657293676544",
+        "end_decimal": "604462909807314587353087"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 80,
+      "address": "1BCf6rHUW6m3iH2ptsvnjgLruAiPQQepLe",
+      "bits": 80,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000080000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000000ffffffffffffffffffff",
+        "start_decimal": "604462909807314587353088",
+        "end_decimal": "1208925819614629174706175"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 81,
+      "address": "15qsCm78whspNQFydGJQk5rexzxTQopnHZ",
+      "bits": 81,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000100000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000001ffffffffffffffffffff",
+        "start_decimal": "1208925819614629174706176",
+        "end_decimal": "2417851639229258349412351"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 82,
+      "address": "13zYrYhhJxp6Ui1VV7pqa5WDhNWM45ARAC",
+      "bits": 82,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000200000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000003ffffffffffffffffffff",
+        "start_decimal": "2417851639229258349412352",
+        "end_decimal": "4835703278458516698824703"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 83,
+      "address": "14MdEb4eFcT3MVG5sPFG4jGLuHJSnt1Dk2",
+      "bits": 83,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000400000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000007ffffffffffffffffffff",
+        "start_decimal": "4835703278458516698824704",
+        "end_decimal": "9671406556917033397649407"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 84,
+      "address": "1CMq3SvFcVEcpLMuuH8PUcNiqsK1oicG2D",
+      "bits": 84,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000000800000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000000fffffffffffffffffffff",
+        "start_decimal": "9671406556917033397649408",
+        "end_decimal": "19342813113834066795298815"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 85,
+      "address": "1Kh22PvXERd2xpTQk3ur6pPEqFeckCJfAr",
+      "bits": 85,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000001000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000001fffffffffffffffffffff",
+        "start_decimal": "19342813113834066795298816",
+        "end_decimal": "38685626227668133590597631"
+      },
+      "pubkey": "0329c4574a4fd8c810b7e42a4b398882b381bcd85e40c6883712912d167c83e73a"
+    },
+    {
+      "number": 86,
+      "address": "1K3x5L6G57Y494fDqBfrojD28UJv4s5JcK",
+      "bits": 86,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000002000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000003fffffffffffffffffffff",
+        "start_decimal": "38685626227668133590597632",
+        "end_decimal": "77371252455336267181195263"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 87,
+      "address": "1PxH3K1Shdjb7gSEoTX7UPDZ6SH4qGPrvq",
+      "bits": 87,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000004000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000007fffffffffffffffffffff",
+        "start_decimal": "77371252455336267181195264",
+        "end_decimal": "154742504910672534362390527"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 88,
+      "address": "16AbnZjZZipwHMkYKBSfswGWKDmXHjEpSf",
+      "bits": 88,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000008000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000000ffffffffffffffffffffff",
+        "start_decimal": "154742504910672534362390528",
+        "end_decimal": "309485009821345068724781055"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 89,
+      "address": "19QciEHbGVNY4hrhfKXmcBBCrJSBZ6TaVt",
+      "bits": 89,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000010000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000001ffffffffffffffffffffff",
+        "start_decimal": "309485009821345068724781056",
+        "end_decimal": "618970019642690137449562111"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 90,
+      "address": "1L12FHH2FHjvTviyanuiFVfmzCy46RRATU",
+      "bits": 90,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000020000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000003ffffffffffffffffffffff",
+        "start_decimal": "618970019642690137449562112",
+        "end_decimal": "1237940039285380274899124223"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 91,
+      "address": "1EzVHtmbN4fs4MiNk3ppEnKKhsmXYJ4s74",
+      "bits": 91,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000040000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000007ffffffffffffffffffffff",
+        "start_decimal": "1237940039285380274899124224",
+        "end_decimal": "2475880078570760549798248447"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 92,
+      "address": "1AE8NzzgKE7Yhz7BWtAcAAxiFMbPo82NB5",
+      "bits": 92,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000080000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000000fffffffffffffffffffffff",
+        "start_decimal": "2475880078570760549798248448",
+        "end_decimal": "4951760157141521099596496895"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 93,
+      "address": "17Q7tuG2JwFFU9rXVj3uZqRtioH3mx2Jad",
+      "bits": 93,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000100000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000001fffffffffffffffffffffff",
+        "start_decimal": "4951760157141521099596496896",
+        "end_decimal": "9903520314283042199192993791"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 94,
+      "address": "1K6xGMUbs6ZTXBnhw1pippqwK6wjBWtNpL",
+      "bits": 94,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000200000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000003fffffffffffffffffffffff",
+        "start_decimal": "9903520314283042199192993792",
+        "end_decimal": "19807040628566084398385987583"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 95,
+      "address": "19eVSDuizydXxhohGh8Ki9WY9KsHdSwoQC",
+      "bits": 95,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000400000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000007fffffffffffffffffffffff",
+        "start_decimal": "19807040628566084398385987584",
+        "end_decimal": "39614081257132168796771975167"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 96,
+      "address": "15ANYzzCp5BFHcCnVFzXqyibpzgPLWaD8b",
+      "bits": 96,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000000800000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000000ffffffffffffffffffffffff",
+        "start_decimal": "39614081257132168796771975168",
+        "end_decimal": "79228162514264337593543950335"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 97,
+      "address": "18ywPwj39nGjqBrQJSzZVq2izR12MDpDr8",
+      "bits": 97,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000001000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000001ffffffffffffffffffffffff",
+        "start_decimal": "79228162514264337593543950336",
+        "end_decimal": "158456325028528675187087900671"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 98,
+      "address": "1CaBVPrwUxbQYYswu32w7Mj4HR4maNoJSX",
+      "bits": 98,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000002000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000003ffffffffffffffffffffffff",
+        "start_decimal": "158456325028528675187087900672",
+        "end_decimal": "316912650057057350374175801343"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 99,
+      "address": "1JWnE6p6UN7ZJBN7TtcbNDoRcjFtuDWoNL",
+      "bits": 99,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000004000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000007ffffffffffffffffffffffff",
+        "start_decimal": "316912650057057350374175801344",
+        "end_decimal": "633825300114114700748351602687"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 100,
+      "address": "1KCgMv8fo2TPBpddVi9jqmMmcne9uSNJ5F",
+      "bits": 100,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000008000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000000fffffffffffffffffffffffff",
+        "start_decimal": "633825300114114700748351602688",
+        "end_decimal": "1267650600228229401496703205375"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 101,
+      "address": "1CKCVdbDJasYmhswB6HKZHEAnNaDpK7W4n",
+      "bits": 101,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000010000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000001fffffffffffffffffffffffff",
+        "start_decimal": "1267650600228229401496703205376",
+        "end_decimal": "2535301200456458802993406410751"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 102,
+      "address": "1PXv28YxmYMaB8zxrKeZBW8dt2HK7RkRPX",
+      "bits": 102,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000020000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000003fffffffffffffffffffffffff",
+        "start_decimal": "2535301200456458802993406410752",
+        "end_decimal": "5070602400912917605986812821503"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 103,
+      "address": "1AcAmB6jmtU6AiEcXkmiNE9TNVPsj9DULf",
+      "bits": 103,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000040000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000007fffffffffffffffffffffffff",
+        "start_decimal": "5070602400912917605986812821504",
+        "end_decimal": "10141204801825835211973625643007"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 104,
+      "address": "1EQJvpsmhazYCcKX5Au6AZmZKRnzarMVZu",
+      "bits": 104,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000080000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000000ffffffffffffffffffffffffff",
+        "start_decimal": "10141204801825835211973625643008",
+        "end_decimal": "20282409603651670423947251286015"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 105,
+      "address": "1CMjscKB3QW7SDyQ4c3C3DEUHiHRhiZVib",
+      "bits": 105,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000100000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000001ffffffffffffffffffffffffff",
+        "start_decimal": "20282409603651670423947251286016",
+        "end_decimal": "40564819207303340847894502572031"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 106,
+      "address": "18KsfuHuzQaBTNLASyj15hy4LuqPUo1FNB",
+      "bits": 106,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000200000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000003ffffffffffffffffffffffffff",
+        "start_decimal": "40564819207303340847894502572032",
+        "end_decimal": "81129638414606681695789005144063"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 107,
+      "address": "15EJFC5ZTs9nhsdvSUeBXjLAuYq3SWaxTc",
+      "bits": 107,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000400000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000007ffffffffffffffffffffffffff",
+        "start_decimal": "81129638414606681695789005144064",
+        "end_decimal": "162259276829213363391578010288127"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 108,
+      "address": "1HB1iKUqeffnVsvQsbpC6dNi1XKbyNuqao",
+      "bits": 108,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000000800000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000000fffffffffffffffffffffffffff",
+        "start_decimal": "162259276829213363391578010288128",
+        "end_decimal": "324518553658426726783156020576255"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 109,
+      "address": "1GvgAXVCbA8FBjXfWiAms4ytFeJcKsoyhL",
+      "bits": 109,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000001000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000001fffffffffffffffffffffffffff",
+        "start_decimal": "324518553658426726783156020576256",
+        "end_decimal": "649037107316853453566312041152511"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 110,
+      "address": "12JzYkkN76xkwvcPT6AWKZtGX6w2LAgsJg",
+      "bits": 110,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000002000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000003fffffffffffffffffffffffffff",
+        "start_decimal": "649037107316853453566312041152512",
+        "end_decimal": "1298074214633706907132624082305023"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 111,
+      "address": "1824ZJQ7nKJ9QFTRBqn7z7dHV5EGpzUpH3",
+      "bits": 111,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000004000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000007fffffffffffffffffffffffffff",
+        "start_decimal": "1298074214633706907132624082305024",
+        "end_decimal": "2596148429267413814265248164610047"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 112,
+      "address": "18A7NA9FTsnJxWgkoFfPAFbQzuQxpRtCos",
+      "bits": 112,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000008000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000000ffffffffffffffffffffffffffff",
+        "start_decimal": "2596148429267413814265248164610048",
+        "end_decimal": "5192296858534827628530496329220095"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 113,
+      "address": "1NeGn21dUDDeqFQ63xb2SpgUuXuBLA4WT4",
+      "bits": 113,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000010000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000001ffffffffffffffffffffffffffff",
+        "start_decimal": "5192296858534827628530496329220096",
+        "end_decimal": "10384593717069655257060992658440191"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 114,
+      "address": "174SNxfqpdMGYy5YQcfLbSTK3MRNZEePoy",
+      "bits": 114,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000020000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000003ffffffffffffffffffffffffffff",
+        "start_decimal": "10384593717069655257060992658440192",
+        "end_decimal": "20769187434139310514121985316880383"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 115,
+      "address": "1NLbHuJebVwUZ1XqDjsAyfTRUPwDQbemfv",
+      "bits": 115,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000040000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000007ffffffffffffffffffffffffffff",
+        "start_decimal": "20769187434139310514121985316880384",
+        "end_decimal": "41538374868278621028243970633760767"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 116,
+      "address": "1MnJ6hdhvK37VLmqcdEwqC3iFxyWH2PHUV",
+      "bits": 116,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000080000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000000fffffffffffffffffffffffffffff",
+        "start_decimal": "41538374868278621028243970633760768",
+        "end_decimal": "83076749736557242056487941267521535"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 117,
+      "address": "1KNRfGWw7Q9Rmwsc6NT5zsdvEb9M2Wkj5Z",
+      "bits": 117,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000100000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000001fffffffffffffffffffffffffffff",
+        "start_decimal": "83076749736557242056487941267521536",
+        "end_decimal": "166153499473114484112975882535043071"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 118,
+      "address": "1PJZPzvGX19a7twf5HyD2VvNiPdHLzm9F6",
+      "bits": 118,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000200000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000003fffffffffffffffffffffffffffff",
+        "start_decimal": "166153499473114484112975882535043072",
+        "end_decimal": "332306998946228968225951765070086143"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 119,
+      "address": "1GuBBhf61rnvRe4K8zu8vdQB3kHzwFqSy7",
+      "bits": 119,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000400000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000007fffffffffffffffffffffffffffff",
+        "start_decimal": "332306998946228968225951765070086144",
+        "end_decimal": "664613997892457936451903530140172287"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 120,
+      "address": "17s2b9ksz5y7abUm92cHwG8jEPCzK3dLnT",
+      "bits": 120,
+      "range": {
+        "start_hex": "0000000000000000000000000000000000800000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000000ffffffffffffffffffffffffffffff",
+        "start_decimal": "664613997892457936451903530140172288",
+        "end_decimal": "1329227995784915872903807060280344575"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 121,
+      "address": "1GDSuiThEV64c166LUFC9uDcVdGjqkxKyh",
+      "bits": 121,
+      "range": {
+        "start_hex": "0000000000000000000000000000000001000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000001ffffffffffffffffffffffffffffff",
+        "start_decimal": "1329227995784915872903807060280344576",
+        "end_decimal": "2658455991569831745807614120560689151"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 122,
+      "address": "1Me3ASYt5JCTAK2XaC32RMeH34PdprrfDx",
+      "bits": 122,
+      "range": {
+        "start_hex": "0000000000000000000000000000000002000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000003ffffffffffffffffffffffffffffff",
+        "start_decimal": "2658455991569831745807614120560689152",
+        "end_decimal": "5316911983139663491615228241121378303"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 123,
+      "address": "1CdufMQL892A69KXgv6UNBD17ywWqYpKut",
+      "bits": 123,
+      "range": {
+        "start_hex": "0000000000000000000000000000000004000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000007ffffffffffffffffffffffffffffff",
+        "start_decimal": "5316911983139663491615228241121378304",
+        "end_decimal": "10633823966279326983230456482242756607"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 124,
+      "address": "1BkkGsX9ZM6iwL3zbqs7HWBV7SvosR6m8N",
+      "bits": 124,
+      "range": {
+        "start_hex": "0000000000000000000000000000000008000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000000fffffffffffffffffffffffffffffff",
+        "start_decimal": "10633823966279326983230456482242756608",
+        "end_decimal": "21267647932558653966460912964485513215"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 125,
+      "address": "1PXAyUB8ZoH3WD8n5zoAthYjN15yN5CVq5",
+      "bits": 125,
+      "range": {
+        "start_hex": "0000000000000000000000000000000010000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000001fffffffffffffffffffffffffffffff",
+        "start_decimal": "21267647932558653966460912964485513216",
+        "end_decimal": "42535295865117307932921825928971026431"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 126,
+      "address": "1AWCLZAjKbV1P7AHvaPNCKiB7ZWVDMxFiz",
+      "bits": 126,
+      "range": {
+        "start_hex": "0000000000000000000000000000000020000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000003fffffffffffffffffffffffffffffff",
+        "start_decimal": "42535295865117307932921825928971026432",
+        "end_decimal": "85070591730234615865843651857942052863"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 127,
+      "address": "1G6EFyBRU86sThN3SSt3GrHu1sA7w7nzi4",
+      "bits": 127,
+      "range": {
+        "start_hex": "0000000000000000000000000000000040000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000007fffffffffffffffffffffffffffffff",
+        "start_decimal": "85070591730234615865843651857942052864",
+        "end_decimal": "170141183460469231731687303715884105727"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 128,
+      "address": "1MZ2L1gFrCtkkn6DnTT2e4PFUTHw9gNwaj",
+      "bits": 128,
+      "range": {
+        "start_hex": "0000000000000000000000000000000080000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000000ffffffffffffffffffffffffffffffff",
+        "start_decimal": "170141183460469231731687303715884105728",
+        "end_decimal": "340282366920938463463374607431768211455"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 129,
+      "address": "1Hz3uv3nNZzBVMXLGadCucgjiCs5W9vaGz",
+      "bits": 129,
+      "range": {
+        "start_hex": "0000000000000000000000000000000100000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000001ffffffffffffffffffffffffffffffff",
+        "start_decimal": "340282366920938463463374607431768211456",
+        "end_decimal": "680564733841876926926749214863536422911"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 130,
+      "address": "1Fo65aKq8s8iquMt6weF1rku1moWVEd5Ua",
+      "bits": 130,
+      "range": {
+        "start_hex": "0000000000000000000000000000000200000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000003ffffffffffffffffffffffffffffffff",
+        "start_decimal": "680564733841876926926749214863536422912",
+        "end_decimal": "1361129467683753853853498429727072845823"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 131,
+      "address": "16zRPnT8znwq42q7XeMkZUhb1bKqgRogyy",
+      "bits": 131,
+      "range": {
+        "start_hex": "0000000000000000000000000000000400000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000007ffffffffffffffffffffffffffffffff",
+        "start_decimal": "1361129467683753853853498429727072845824",
+        "end_decimal": "2722258935367507707706996859454145691647"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 132,
+      "address": "1KrU4dHE5WrW8rhWDsTRjR21r8t3dsrS3R",
+      "bits": 132,
+      "range": {
+        "start_hex": "0000000000000000000000000000000800000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000000fffffffffffffffffffffffffffffffff",
+        "start_decimal": "2722258935367507707706996859454145691648",
+        "end_decimal": "5444517870735015415413993718908291383295"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 133,
+      "address": "17uDfp5r4n441xkgLFmhNoSW1KWp6xVLD",
+      "bits": 133,
+      "range": {
+        "start_hex": "0000000000000000000000000000001000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000001fffffffffffffffffffffffffffffffff",
+        "start_decimal": "5444517870735015415413993718908291383296",
+        "end_decimal": "10889035741470030830827987437816582766591"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 134,
+      "address": "13A3JrvXmvg5w9XGvyyR4JEJqiLz8ZySY3",
+      "bits": 134,
+      "range": {
+        "start_hex": "0000000000000000000000000000002000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000003fffffffffffffffffffffffffffffffff",
+        "start_decimal": "10889035741470030830827987437816582766592",
+        "end_decimal": "21778071482940061661655974875633165533183"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 135,
+      "address": "16RGFo6hjq9ym6Pj7N5H7L1NR1rVPJyw2v",
+      "bits": 135,
+      "range": {
+        "start_hex": "0000000000000000000000000000004000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000007fffffffffffffffffffffffffffffffff",
+        "start_decimal": "21778071482940061661655974875633165533184",
+        "end_decimal": "43556142965880123323311949751266331066367"
+      },
+      "pubkey": "02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16"
+    },
+    {
+      "number": 136,
+      "address": "1UDHPdovvR985NrWSkdWQDEQ1xuRiTALq",
+      "bits": 136,
+      "range": {
+        "start_hex": "0000000000000000000000000000008000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000000ffffffffffffffffffffffffffffffffff",
+        "start_decimal": "43556142965880123323311949751266331066368",
+        "end_decimal": "87112285931760246646623899502532662132735"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 137,
+      "address": "15nf31J46iLuK1ZkTnqHo7WgN5cARFK3RA",
+      "bits": 137,
+      "range": {
+        "start_hex": "0000000000000000000000000000010000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000001ffffffffffffffffffffffffffffffffff",
+        "start_decimal": "87112285931760246646623899502532662132736",
+        "end_decimal": "174224571863520493293247799005065324265471"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 138,
+      "address": "1Ab4vzG6wEQBDNQM1B2bvUz4fqXXdFk2WT",
+      "bits": 138,
+      "range": {
+        "start_hex": "0000000000000000000000000000020000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000003ffffffffffffffffffffffffffffffffff",
+        "start_decimal": "174224571863520493293247799005065324265472",
+        "end_decimal": "348449143727040986586495598010130648530943"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 139,
+      "address": "1Fz63c775VV9fNyj25d9Xfw3YHE6sKCxbt",
+      "bits": 139,
+      "range": {
+        "start_hex": "0000000000000000000000000000040000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000007ffffffffffffffffffffffffffffffffff",
+        "start_decimal": "348449143727040986586495598010130648530944",
+        "end_decimal": "696898287454081973172991196020261297061887"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 140,
+      "address": "1QKBaU6WAeycb3DbKbLBkX7vJiaS8r42Xo",
+      "bits": 140,
+      "range": {
+        "start_hex": "0000000000000000000000000000080000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000000fffffffffffffffffffffffffffffffffff",
+        "start_decimal": "696898287454081973172991196020261297061888",
+        "end_decimal": "1393796574908163946345982392040522594123775"
+      },
+      "pubkey": "031f6a332d3c5c4f2de2378c012f429cd109ba07d69690c6c701b6bb87860d6640"
+    },
+    {
+      "number": 141,
+      "address": "1CD91Vm97mLQvXhrnoMChhJx4TP9MaQkJo",
+      "bits": 141,
+      "range": {
+        "start_hex": "0000000000000000000000000000100000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000001fffffffffffffffffffffffffffffffffff",
+        "start_decimal": "1393796574908163946345982392040522594123776",
+        "end_decimal": "2787593149816327892691964784081045188247551"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 142,
+      "address": "15MnK2jXPqTMURX4xC3h4mAZxyCcaWWEDD",
+      "bits": 142,
+      "range": {
+        "start_hex": "0000000000000000000000000000200000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000003fffffffffffffffffffffffffffffffffff",
+        "start_decimal": "2787593149816327892691964784081045188247552",
+        "end_decimal": "5575186299632655785383929568162090376495103"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 143,
+      "address": "13N66gCzWWHEZBxhVxG18P8wyjEWF9Yoi1",
+      "bits": 143,
+      "range": {
+        "start_hex": "0000000000000000000000000000400000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000007fffffffffffffffffffffffffffffffffff",
+        "start_decimal": "5575186299632655785383929568162090376495104",
+        "end_decimal": "11150372599265311570767859136324180752990207"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 144,
+      "address": "1NevxKDYuDcCh1ZMMi6ftmWwGrZKC6j7Ux",
+      "bits": 144,
+      "range": {
+        "start_hex": "0000000000000000000000000000800000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000000ffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "11150372599265311570767859136324180752990208",
+        "end_decimal": "22300745198530623141535718272648361505980415"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 145,
+      "address": "19GpszRNUej5yYqxXoLnbZWKew3KdVLkXg",
+      "bits": 145,
+      "range": {
+        "start_hex": "0000000000000000000000000001000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000001ffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "22300745198530623141535718272648361505980416",
+        "end_decimal": "44601490397061246283071436545296723011960831"
+      },
+      "pubkey": "03afdda497369e219a2c1c369954a930e4d3740968e5e4352475bcffce3140dae5"
+    },
+    {
+      "number": 146,
+      "address": "1M7ipcdYHey2Y5RZM34MBbpugghmjaV89P",
+      "bits": 146,
+      "range": {
+        "start_hex": "0000000000000000000000000002000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000003ffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "44601490397061246283071436545296723011960832",
+        "end_decimal": "89202980794122492566142873090593446023921663"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 147,
+      "address": "18aNhurEAJsw6BAgtANpexk5ob1aGTwSeL",
+      "bits": 147,
+      "range": {
+        "start_hex": "0000000000000000000000000004000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000007ffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "89202980794122492566142873090593446023921664",
+        "end_decimal": "178405961588244985132285746181186892047843327"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 148,
+      "address": "1FwZXt6EpRT7Fkndzv6K4b4DFoT4trbMrV",
+      "bits": 148,
+      "range": {
+        "start_hex": "0000000000000000000000000008000000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000000fffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "178405961588244985132285746181186892047843328",
+        "end_decimal": "356811923176489970264571492362373784095686655"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 149,
+      "address": "1CXvTzR6qv8wJ7eprzUKeWxyGcHwDYP1i2",
+      "bits": 149,
+      "range": {
+        "start_hex": "0000000000000000000000000010000000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000001fffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "356811923176489970264571492362373784095686656",
+        "end_decimal": "713623846352979940529142984724747568191373311"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 150,
+      "address": "1MUJSJYtGPVGkBCTqGspnxyHahpt5Te8jy",
+      "bits": 150,
+      "range": {
+        "start_hex": "0000000000000000000000000020000000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000003fffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "713623846352979940529142984724747568191373312",
+        "end_decimal": "1427247692705959881058285969449495136382746623"
+      },
+      "pubkey": "03137807790ea7dc6e97901c2bc87411f45ed74a5629315c4e4b03a0a102250c49"
+    },
+    {
+      "number": 151,
+      "address": "13Q84TNNvgcL3HJiqQPvyBb9m4hxjS3jkV",
+      "bits": 151,
+      "range": {
+        "start_hex": "0000000000000000000000000040000000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000007fffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "1427247692705959881058285969449495136382746624",
+        "end_decimal": "2854495385411919762116571938898990272765493247"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 152,
+      "address": "1LuUHyrQr8PKSvbcY1v1PiuGuqFjWpDumN",
+      "bits": 152,
+      "range": {
+        "start_hex": "0000000000000000000000000080000000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000000ffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "2854495385411919762116571938898990272765493248",
+        "end_decimal": "5708990770823839524233143877797980545530986495"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 153,
+      "address": "18192XpzzdDi2K11QVHR7td2HcPS6Qs5vg",
+      "bits": 153,
+      "range": {
+        "start_hex": "0000000000000000000000000100000000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000001ffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "5708990770823839524233143877797980545530986496",
+        "end_decimal": "11417981541647679048466287755595961091061972991"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 154,
+      "address": "1NgVmsCCJaKLzGyKLFJfVequnFW9ZvnMLN",
+      "bits": 154,
+      "range": {
+        "start_hex": "0000000000000000000000000200000000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000003ffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "11417981541647679048466287755595961091061972992",
+        "end_decimal": "22835963083295358096932575511191922182123945983"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 155,
+      "address": "1AoeP37TmHdFh8uN72fu9AqgtLrUwcv2wJ",
+      "bits": 155,
+      "range": {
+        "start_hex": "0000000000000000000000000400000000000000000000000000000000000000",
+        "end_hex": "00000000000000000000000007ffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "22835963083295358096932575511191922182123945984",
+        "end_decimal": "45671926166590716193865151022383844364247891967"
+      },
+      "pubkey": "035cd1854cae45391ca4ec428cc7e6c7d9984424b954209a8eea197b9e364c05f6"
+    },
+    {
+      "number": 156,
+      "address": "1FTpAbQa4h8trvhQXjXnmNhqdiGBd1oraE",
+      "bits": 156,
+      "range": {
+        "start_hex": "0000000000000000000000000800000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000000fffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "45671926166590716193865151022383844364247891968",
+        "end_decimal": "91343852333181432387730302044767688728495783935"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 157,
+      "address": "14JHoRAdmJg3XR4RjMDh6Wed6ft6hzbQe9",
+      "bits": 157,
+      "range": {
+        "start_hex": "0000000000000000000000001000000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000001fffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "91343852333181432387730302044767688728495783936",
+        "end_decimal": "182687704666362864775460604089535377456991567871"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 158,
+      "address": "19z6waranEf8CcP8FqNgdwUe1QRxvUNKBG",
+      "bits": 158,
+      "range": {
+        "start_hex": "0000000000000000000000002000000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000003fffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "182687704666362864775460604089535377456991567872",
+        "end_decimal": "365375409332725729550921208179070754913983135743"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 159,
+      "address": "14u4nA5sugaswb6SZgn5av2vuChdMnD9E5",
+      "bits": 159,
+      "range": {
+        "start_hex": "0000000000000000000000004000000000000000000000000000000000000000",
+        "end_hex": "0000000000000000000000007fffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "365375409332725729550921208179070754913983135744",
+        "end_decimal": "730750818665451459101842416358141509827966271487"
+      },
+      "pubkey": null
+    },
+    {
+      "number": 160,
+      "address": "1NBC8uXJy1GiJ6drkiZa1WuKn51ps7EPTv",
+      "bits": 160,
+      "range": {
+        "start_hex": "0000000000000000000000008000000000000000000000000000000000000000",
+        "end_hex": "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+        "start_decimal": "730750818665451459101842416358141509827966271488",
+        "end_decimal": "1461501637330902918203684832716283019655932542975"
+      },
+      "pubkey": "02e0a8b039282faf6fe0fd769cfbc4b6b4cf8758ba68220eac420e32b91ddfa673"
+    }
+  ],
+  "pubkey_note": "pubkey is compressed hex where known. For solved puzzles derived from private key. For unsolved 135/140/145/150/155/160 taken from on-chain spends. null means pubkey not publicly known (address-only target).",
+  "pubkey_sources": [
+    "https://bitcoinpuzzles.io/en/puzzles/1000btc",
+    "https://github.com/mlartab/bitcoin-puzzle-systematic-analysis",
+    "https://github.com/roadhero/Bitcoin-Puzzle-Info",
+    "https://btcpuzzlesearch.com/"
+  ]
+}

@@ -1,0 +1,3 @@
+/target/
+*.checkpoint
+btc_puzzle_solver_paid_source_*.tar.gz

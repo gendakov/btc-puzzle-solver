@@ -1,0 +1,20 @@
+[package]
+name = "btc_puzzle_solver"
+version = "1.0.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
+
+[dependencies]
+libc = "0.2"
+cudarc = { version = "0.19.10", default-features = false, features = ["std", "driver", "nvrtc", "cuda-13030", "fallback-dynamic-loading"] }
+rayon = "1.11"
+secp256k1 = { version = "0.31", features = ["global-context"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+primitive-types = "0.13"
